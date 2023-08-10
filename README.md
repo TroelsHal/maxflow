@@ -26,9 +26,9 @@ cmake --build .
 The `maxflow` program reads a DIMACS max flow problem and solves for the max flow value.
 
 The user must choose between one of the following algorithms:<br>
-"ek" - Edmonds-Karp<br>
-"pr" - Push-Relabel<br>
-"dinic" - Dinic
+"ek" - Edmonds-Karp algorithm<br>
+"pr" - Push-Relabel algorithm<br>
+"dinic" - Dinic's algorithm
 
 The user must also provide a path to a max flow problem in DIMACS format.
 
