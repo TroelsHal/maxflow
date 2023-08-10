@@ -7,6 +7,13 @@ This program is an implementation of three max flow algorithm:
 
 + Goldberg and Tarjan's **Push-Relabel** algorithm implemented with relabel-to-front optimisation and gap heuristic.
 
+### Requirements
+To build and run this program, you'll need the following:
+
++ A C++17 compliant compiler.
++ CMake version 3.14 or higher.
++ GoogleTest (only if running the tests), which can be obtained [here](https://github.com/google/googletest).
+
 ### Build
 ```bash
 mkdir build && cd build
