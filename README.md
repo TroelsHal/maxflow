@@ -1,4 +1,4 @@
-### MAX FLOW - 3 Algorithms
+# MAX FLOW - 3 Algorithms
 This program is an implementation of three max flow algorithm:
 
 + **Edmonds-Karp** implemented with breadth-first search.
@@ -7,14 +7,14 @@ This program is an implementation of three max flow algorithm:
 
 + Goldberg and Tarjan's **Push-Relabel** algorithm implemented with relabel-to-front optimisation and gap heuristic.
 
-### Requirements
+## Requirements
 To build and run this program, you'll need the following:
 
 + A C++17 compliant compiler.
 + CMake version 3.14 or higher.
 + GoogleTest (only if running the tests), which can be obtained [here](https://github.com/google/googletest).
 
-### Build
+## Build
 ```bash
 mkdir build && cd build
 cmake ..
@@ -22,7 +22,7 @@ cmake --build .
 ```
 
 
-### Usage
+## Usage
 The `maxflow` program reads a DIMACS max flow problem and solves for the max flow value.
 
 The user must choose between one of the following algorithms:<br>
@@ -44,12 +44,15 @@ For help:<br>
 ./maxflow --help
 ```
 
-### Testing
+## Testing
 The program is tested with GoogleTest.<br>
 To run the test, navigate from the `build` folder to the `build/test` folder and run `ctest`:<br>
 ```bash
 cd test
 ctest
-``` 
+```
 
+## Author
+
+Code written by Troels Halgreen
 
